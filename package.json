@@ -1,0 +1,21 @@
+{
+  "name": "flygo",
+  "version": "1.0.0",
+  "description": "flygo account creation",
+  "main": "protractor.conf.js",
+  "scripts": {
+    "setup": "npm install && node node_modules/protractor/bin/webdriver-manager update",
+    "start-selenium": "webdriver-manager start",
+    "test": "node node_modules/protractor/bin/protractor protractor.conf.js"
+  },
+  "author": "Raul Huluban",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "^5.1.2"
+  },
+  "devDependencies": {
+    "protractor-jasmine2-html-reporter": "0.0.7"
+  }
+}
